@@ -1,0 +1,32 @@
+.task{
+    font-family: "Helvetica Neue";
+    margin: 1rem 0;
+    background-color: #ddd;
+    border-radius: 4px;
+    padding: 0.8rem;
+}
+
+.task-title{
+    margin: 0.4rem 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.task-body{
+    font-size: 0.75rem;
+    margin: 0.4rem 0;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.task-day{
+    font-size: 0.6rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.task.reminder{
+    border-left: 5px solid green;
+}
